@@ -42,6 +42,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button2{
@@ -75,6 +76,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button3{
@@ -108,6 +110,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button4{
@@ -141,6 +144,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button1 a:hover{
@@ -166,4 +170,86 @@ background-color: black;
 #sbbuttontext a:hover{
 color: white;
 background-color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    background: #6375B4;
+    color: #fff;
+    width: 100vw;
+    height: 60px;
+    bottom: 0;
+    position: fixed;
+}
+
+.footercr{
+    display: flex;
+        width: 500px;
+        height: 50px;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Inter;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        left: 10px;
+        position: absolute;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .smlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .smlinks a{
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255,255,255,0.25);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    position: absolute;
+    font-size: xx-large;
+}
+
+footer .smlinks a:hover{
+    color: black;
+    background-color: white;
+}
+
+footer .smlinks a:nth-child(1) {
+    top: 5.75%;
+    right: 50px;
+}
+
+footer .smlinks a:nth-child(2) {
+    top: 5.75%;
+    right: 125px;
+}
+
+footer .smlinks a:nth-child(3) {
+    top: 5.75%;
+    right: 200px;
+}
+
+#vedo{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
